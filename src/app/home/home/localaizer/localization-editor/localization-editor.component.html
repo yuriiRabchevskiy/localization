@@ -1,0 +1,8 @@
+<p-breadcrumb [model]="items"></p-breadcrumb>
+<div class="content-wrap">
+    <div class="area-name">{{dataItem.node.label}}</div>
+    <textarea>{{dataItem.node.data}}</textarea>
+</div>
+<div class="footer">
+    <button type="button" (click)="saveRecord()">Save Record</button>
+</div>

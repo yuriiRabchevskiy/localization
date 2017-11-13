@@ -1,0 +1,8 @@
+<div class="page-layout">
+    <div class="main-item">
+        <app-list (iClick)="selectNode($event)"></app-list>
+    </div>
+    <div class="selected-item" *ngIf="item">
+        <app-localization-editor [selectedItem]="item"></app-localization-editor>
+    </div>
+</div>

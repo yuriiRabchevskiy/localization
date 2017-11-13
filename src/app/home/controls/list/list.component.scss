@@ -1,0 +1,12 @@
+.label {
+    flex-shrink: 1;
+    font-size: 18px;
+    color: #988d67;
+    margin-bottom: 16px;
+}
+.tree-wrap {
+    display: block;
+    flex: 1;
+    overflow-y: auto;
+    height: calc(100% - 38px);
+}
